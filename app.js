@@ -5,6 +5,9 @@ var bodyParser = require("body-parser");
 var mhshots = [
 	{name: "New Weapon", img:"https://i.redd.it/edn8hvecwx4y.png"},
 	{name: "Final Boss", img: "https://i.ytimg.com/vi/u7tuDneIGwo/maxresdefault.jpg"},
+	{name: "MHXX", img:"http://images.nintendolife.com/news/2016/12/gallery_feast_your_eyes_on_a_whole_lot_of_monster_hunter_xx_double_cross_screens/attachment/0/original.jpg"},
+	{name: "New Weapon", img:"https://i.redd.it/edn8hvecwx4y.png"},
+	{name: "Final Boss", img: "https://i.ytimg.com/vi/u7tuDneIGwo/maxresdefault.jpg"},
 	{name: "MHXX", img:"http://images.nintendolife.com/news/2016/12/gallery_feast_your_eyes_on_a_whole_lot_of_monster_hunter_xx_double_cross_screens/attachment/0/original.jpg"}
 ]
 
