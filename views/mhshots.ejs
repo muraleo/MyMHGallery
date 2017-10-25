@@ -1,0 +1,12 @@
+<%include partials/header%>
+
+<h1>This is mhshots</h1>
+
+<a href="/mhshots/new">Add a new mhshot</a>
+
+<%mhshots.forEach(function(e){%>
+	<h4><%=e.name%></h4>
+	<img src="<%=e.img%>">
+<%})%>
+
+<%include partials/footer%>
