@@ -15,10 +15,11 @@
 			<%mhshots.forEach(function(e){%>
 				<div class="col-md-4 col-sm-6">
 					<div class="thumbnail">
-						<img src="<%=e.img%>">
+						<img src="<%=e.image%>">
 						<div class="caption">
 							<h4><%=e.name%></h4>	
 						</div>
+						<a href="/mhshots/<%=e._id%>" class="btn btn-primary">more info</a>
 					</div>
 				</div>
 			<%})%>
